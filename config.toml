@@ -1,0 +1,64 @@
+baseURL = 'http://example.org/'
+defaultContentLanguage = "en"
+title = "Anežka Müller"
+defaultContentLanguageInSubdir = true
+theme = "hermit-v2"
+license = "MIT"
+
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+
+rssLimit = 10
+
+copyright = "CHANGE ME"
+enableEmoji = true
+
+[taxonomies]
+  tag = "tags"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+  
+  themeColor = "#494f5c"
+  homeSubtitle = "My soon-to-be personal website."
+  footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+  justifyContent = false
+
+  relatedPosts = true
+  code_copy_button = true
+
+  homeSubtitlePrinter = true
+  scrollToTop = true 
+  global_mathjax = false
+  readTime = true
+  readTimeSeparator = "CHANGE ME READ TIME"
+  # legacyLayout = false
+  shareSocial = true
+
+  [[params.socialLinks]]
+    name = "mastodon"
+    url = "https://mastodon.social/@anezkamll"
+
+  [[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/anezkamll/"
+    
+[params.author]
+  name = "Anežka Müller"
+  about = "CHANGE SITE AUTHOR ABOUT"
+
+[menu]
+
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 20
